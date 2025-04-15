@@ -2,7 +2,7 @@ package main.java.rpg.decorator;
 
 public abstract class CharacterDecorator {
 
-	private Character character;
+	private main.java.rpg.core.Character character;
 	
 	public String getDescription() {
 		return "Description :";
@@ -12,11 +12,11 @@ public abstract class CharacterDecorator {
 		return 0;
 	}
 	
-	public CharacterDecorator(Character character) {
+	public CharacterDecorator(main.java.rpg.core.Character character) {
 		this.character = character;
 	}
 	
-	public Character getCharacter() {
+	public main.java.rpg.core.Character getCharacter() {
 		return character;
 	}
 }

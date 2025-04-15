@@ -2,7 +2,7 @@ package main.java.rpg.decorator;
 
 public class FireResistance extends CharacterDecorator {
 
-	public FireResistance(Character character) {
+	public FireResistance(main.java.rpg.core.Character character) {
 		super(character);
 	}
 	

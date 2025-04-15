@@ -2,7 +2,7 @@ package main.java.rpg.decorator;
 
 public class Telepathy extends CharacterDecorator {
 
-	public Telepathy(Character character) {
+	public Telepathy(main.java.rpg.core.Character character) {
 		super(character);
 	}
 	

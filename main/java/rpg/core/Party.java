@@ -13,13 +13,17 @@ public class Party {
 	public void deleteCharacter(Character character) {
 		String c = "\nPersonnage :";
 		for(int i = 0; i < listCharacter.size(); i++) {
-			if(character == Character.getCharacter(i)) {
+			if(character == listCharacter.get(i)) {
 				listCharacter.remove(i);
 			}
 		}
 	}
 	
 	public int additionCharacter() {
-		return 0;
+		int res=0;
+		for(int i = 0; i < listCharacter.size(); i++) {
+			res += listCharacter.get(i).getPowerLevel() ;
+		}
+		return res;
 	}
 }

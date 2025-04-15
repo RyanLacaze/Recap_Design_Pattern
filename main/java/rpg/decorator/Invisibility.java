@@ -2,7 +2,7 @@ package main.java.rpg.decorator;
 
 public class Invisibility extends CharacterDecorator {
 
-	public Invisibility(Character character) {
+	public Invisibility(main.java.rpg.core.Character character) {
 		super(character);
 	}
 	
